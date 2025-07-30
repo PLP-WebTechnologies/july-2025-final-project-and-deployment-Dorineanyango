@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGear Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Tech<span>Gear</span>Pro</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Next-Gen Tech Products</h1>
+                <h2>Innovation at Your Fingertips</h2>
+                <p>High-quality tech gear designed for performance and reliability</p>
+                <div class="cta-buttons">
+                    <a href="products.html" class="btn btn-primary">Explore Products</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/headphones.jpg" alt="Premium Wireless Headphones">
+                        <div class="product-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Wireless Headphones</h3>
+                        <p class="product-desc">Active noise cancellation with 30-hour battery life</p>
+                        <div class="product-price">$299.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="1">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="watches">
+                    <div class="product-image">
+                        <img src="images/smartwatch.jpg" alt="SmartWatch Pro">
+                        <div class="product-tag">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>SmartWatch Pro</h3>
+                        <p class="product-desc">Health tracking, notifications, and 7-day battery</p>
+                        <div class="product-price">$249.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="2">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="images/speaker.jpg" alt="Portable Bluetooth Speaker">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Bluetooth Speaker</h3>
+                        <p class="product-desc">Waterproof with 24-hour playback and rich bass</p>
+                        <div class="product-price">$129.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="products.html" class="btn btn-secondary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="audio">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Audio</h3>
+                    <p>Headphones, Speakers & More</p>
+                    <a href="products.html?category=audio" class="category-link">Browse Audio <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="category-card" data-category="wearables">
+                    <div class="category-icon">
+                        <i class="fas fa-watch"></i>
+                    </div>
+                    <h3>Wearables</h3>
+                    <p>Smartwatches & Fitness Trackers</p>
+                    <a href="products.html?category=wearables" class="category-link">Browse Wearables <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="category-card" data-category="accessories">
+                    <div class="category-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Accessories</h3>
+                    <p>Chargers, Cases & Adapters</p>
+                    <a href="products.html?category=accessories" class="category-link">Browse Accessories <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The sound quality of these headphones is incredible! I can't believe how well the noise cancellation works, even in noisy environments."</p>
+                    <div class="client">
+                        <h4>Sarah Johnson</h4>
+                        <p>Verified Buyer</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"I've been using the SmartWatch Pro for 3 months now and it has completely transformed my fitness routine. The battery life is amazing!"</p>
+                    <div class="client">
+                        <h4>Michael Chen</h4>
+                        <p>Verified Buyer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join Our Tech Community</h2>
+            <p>Subscribe for early access to new products and exclusive deals</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Tech<span>Gear</span>Pro</h3>
+                    <p>Quality tech products for the modern lifestyle</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="products.html?category=audio">Audio</a></li>
+                        <li><a href="products.html?category=wearables">Wearables</a></li>
+                        <li><a href="products.html?category=accessories">Accessories</a></li>
+                        <li><a href="products.html?category=new">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechGear Pro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

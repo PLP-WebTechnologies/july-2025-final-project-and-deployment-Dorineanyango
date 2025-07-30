@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechGear Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Browse our collection of high-quality tech products at TechGear Pro. From audio gear to wearables and accessories.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Tech<span>Gear</span>Pro</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Products</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="filter-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Products</button>
+                    <button class="filter-btn" data-filter="audio">Audio</button>
+                    <button class="filter-btn" data-filter="wearables">Wearables</button>
+                    <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    <button class="filter-btn" data-filter="new">New Arrivals</button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Audio Products -->
+                <div class="product-card" data-category="audio">
+                    <div class="product-image">
+                        <img src="images/headphones.jpg" alt="Premium Wireless Headphones">
+                        <div class="product-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Wireless Headphones</h3>
+                        <p class="product-desc">Active noise cancellation with 30-hour battery life</p>
+                        <div class="product-price">$299.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="1">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="audio">
+                    <div class="product-image">
+                        <img src="images/speaker.jpg" alt="Portable Bluetooth Speaker">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Bluetooth Speaker</h3>
+                        <p class="product-desc">Waterproof with 24-hour playback and rich bass</p>
+                        <div class="product-price">$129.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="2">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="audio">
+                    <div class="product-image">
+                        <img src="images/earbuds.jpg" alt="Wireless Earbuds Pro">
+                        <div class="product-tag">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Earbuds Pro</h3>
+                        <p class="product-desc">Hi-fi sound, water resistant, 8-hour battery life</p>
+                        <div class="product-price">$149.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="3">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Wearables -->
+                <div class="product-card" data-category="wearables">
+                    <div class="product-image">
+                        <img src="images/smartwatch.jpg" alt="SmartWatch Pro">
+                        <div class="product-tag">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>SmartWatch Pro</h3>
+                        <p class="product-desc">Health tracking, notifications, and 7-day battery</p>
+                        <div class="product-price">$249.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="4">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="wearables">
+                    <div class="product-image">
+                        <img src="images/fitness-tracker.jpg" alt="Fitness Activity Tracker">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fitness Activity Tracker</h3>
+                        <p class="product-desc">Heart rate, sleep monitoring, and workout tracking</p>
+                        <div class="product-price">$89.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="5">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="wearables">
+                    <div class="product-image">
+                        <img src="images/smart-glasses.jpg" alt="Smart AR Glasses">
+                        <div class="product-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart AR Glasses</h3>
+                        <p class="product-desc">Augmented reality display with voice assistant</p>
+                        <div class="product-price">$399.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="6">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/wireless-charger.jpg" alt="Fast Wireless Charger">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fast Wireless Charger</h3>
+                        <p class="product-desc">15W fast charging with multiple device support</p>
+                        <div class="product-price">$49.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="7">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/powerbank.jpg" alt="High Capacity Power Bank">
+                    </div>
+                    <div class="product-info">
+                        <h3>High Capacity Power Bank</h3>
+                        <p class="product-desc">20,000mAh battery with USB-C PD fast charging</p>
+                        <div class="product-price">$79.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="8">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/phone-case.jpg" alt="Premium Phone Case">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Phone Case</h3>
+                        <p class="product-desc">Military-grade drop protection with sleek design</p>
+                        <div class="product-price">$34.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="9">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- New Arrivals -->
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <img src="images/smart-home-hub.jpg" alt="Smart Home Hub">
+                        <div class="product-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Home Hub</h3>
+                        <p class="product-desc">Control all your smart devices from one interface</p>
+                        <div class="product-price">$199.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="10">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <img src="images/drone.jpg" alt="Mini Camera Drone">
+                        <div class="product-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Camera Drone</h3>
+                        <p class="product-desc">4K camera with stabilization and 30min flight time</p>
+                        <div class="product-price">$349.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="11">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join Our Tech Community</h2>
+            <p>Subscribe for early access to new products and exclusive deals</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Tech<span>Gear</span>Pro</h3>
+                    <p>Quality tech products for the modern lifestyle</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="products.html?category=audio">Audio</a></li>
+                        <li><a href="products.html?category=wearables">Wearables</a></li>
+                        <li><a href="products.html?category=accessories">Accessories</a></li>
+                        <li><a href="products.html?category=new">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechGear Pro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
